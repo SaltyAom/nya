@@ -1,4 +1,4 @@
-# Nyan
+# Nya
 Collection of common components pattern for copy-pasting via CLI.
 
 For example:
