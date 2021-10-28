@@ -21,7 +21,7 @@ const generate = async (names: string[], outDir: string) => {
         task(
             `Generating ${name}`,
             async ({ setTitle, setWarning, setError }) => {
-                const dist = `${outDir}/navbar`
+                const dist = `${outDir}/${name}`
 
                 if (fs.existsSync(dist))
                     return setWarning(
@@ -30,7 +30,7 @@ const generate = async (names: string[], outDir: string) => {
 
                 try {
                     await degit(
-                        'https://github.com/SaltyAom/nyan/src/nyan/navbar'
+                        `https://github.com/SaltyAom/nyan/src/nyan/${name}`
                     ).clone(dist)
                     setTitle(`Generated ${name}`)
                 } catch (error) {

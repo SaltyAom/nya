@@ -1,7 +1,7 @@
 {
   "name": "@saltyaom/nya",
-  "version": "0.0.0-experimental.0",
-  "main": "index.js",
+  "version": "0.0.0-experimental.1",
+  "main": "./bin/index.js",
   "license": "MIT",
   "bin": {
     "nya": "./bin/index.js"
