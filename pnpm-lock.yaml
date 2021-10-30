@@ -7,6 +7,7 @@ specifiers:
   boxen: '5'
   chalk: ^4.1.2
   degit: ^2.8.4
+  fuse.js: ^6.4.6
   node-fetch: ^2.5.12
   ora: ^6.0.1
   tasuku: ^1.0.2
@@ -17,6 +18,7 @@ dependencies:
   boxen: 5.1.2
   chalk: 4.1.2
   degit: 2.8.4
+  fuse.js: 6.4.6
   node-fetch: 2.6.5
   ora: 6.0.1
   tasuku: 1.0.2
@@ -243,6 +245,11 @@ packages:
       combined-stream: 1.0.8
       mime-types: 2.1.33
     dev: true
+
+  /fuse.js/6.4.6:
+    resolution: {integrity: sha512-/gYxR/0VpXmWSfZOIPS3rWwU8SHgsRTwWuXhyb2O6s7aRuVtHtxCkR33bNYu3wyLyNx/Wpv0vU7FZy8Vj53VNw==}
+    engines: {node: '>=10'}
+    dev: false
 
   /has-flag/4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
